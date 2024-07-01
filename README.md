@@ -1,7 +1,10 @@
-# prophet-challenge
-My coding project utilizes the Pandas library in Python within a Jupyter Notebook to access and analyze Mercado Libre sales data from a CSV file. The goal is to examine search trends, stock prices, and forecast future search trends based on the available data.
-
-### Process:
-1. **Setup:** Open the `forecasting_net_prophet_final.ipynb` file in a source code editor that supports Jupyter Notebooks and has Prophet installed. If Prophet is not installed in your current editor, I recommend using Google Colab.
-2. **Running Cells:** Each cell contains code that, when executed, displays output below it. You can run a cell by clicking the play button at the top left corner of the cell or by clicking inside the cell and pressing `Shift + Enter`. This will also move you to the next cell.
-3. **Output:** The output of each cell will display the results as specified in the comments, utilizing the Pandas library in Python to perform the necessary data analysis and forecasting.
+# Mercado Libre
+This is an analysis of company Mercado Libre's financial and user data to drive growth. Mercado Libre aims to leverage search traffic predictions to inform successful stock trading strategies. This project focuses on identifying patterns in search traffic and relating them to stock price trends.
+### Objective:
+The primary objective is to determine if predicting search traffic can help successfully trade Mercado Libre's stock. The project involves four key steps:
+* Finding unusual patterns in hourly Google search traffic.
+* Mining the search traffic data for seasonality.
+* Relating the search traffic to stock price patterns.
+* Creating a time series model with Prophet for forecasting.
+### Summary:
+This analysis demonstrates the value of using search traffic data in stock trading strategies.
